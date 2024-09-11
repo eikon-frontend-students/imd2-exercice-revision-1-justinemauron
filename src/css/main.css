@@ -117,19 +117,30 @@ h3.year {
 
 /* 03. Centrer verticalement */
 
+.exercise-content {
+  display: flex;
+  align-items: flex-start;
+}
+
 .link {
-  display: block;
   width: 150px;
   margin-bottom: 20px;
   background: #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
 }
 
 .calltoaction {
-  display: block;
   width: 150px;
   height: 100px;
   margin-bottom: 20px;
   background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 /* 04. Display inline et block */
