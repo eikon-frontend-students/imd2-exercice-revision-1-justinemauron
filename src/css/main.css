@@ -61,12 +61,12 @@ video {
 
 /* 01. Sélecteurs CSS */
 
-.page-container h2 {
+.selectors h2 {
   font-size: 25px;
   font-weight: 700;
 }
 
-.page-container h3 {
+.selectors h3 {
   font-weight: 700;
 }
 
@@ -92,12 +92,15 @@ h3.year {
   padding: 20px;
   background: #ccc;
   border-radius: 5px;
-  display: inline-flex;
+  margin: auto;
+  display: flex;
   justify-content: center;
 }
 
 .button-wrapper {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
@@ -108,19 +111,7 @@ h3.year {
   justify-content: center;
 }
 
-.exercise-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 /* 03. Centrer verticalement */
-
-.exercise-content {
-  display: flex;
-  align-items: flex-start;
-}
 
 .link {
   width: 150px;
@@ -144,3 +135,15 @@ h3.year {
 }
 
 /* 04. Display inline et block */
+
+.article-title {
+  display: inline;
+}
+
+p.article-summary {
+  display: inline;
+}
+
+strong {
+  display: block;
+}
